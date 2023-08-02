@@ -1,5 +1,8 @@
 # Custom
 config.json
+config.v3.json
+.chatgpt_cache.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -104,6 +107,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.conda/
 .env
 .venv
 env/
@@ -133,3 +137,8 @@ dmypy.json
 # JetBrains IDEs configuration
 .idea/
 src/revChatGPT/test.py
+README.md
+src/revChatGPT/V3.test.py
+.gitignore
+.gitignore
+captcha
